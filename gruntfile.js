@@ -24,14 +24,6 @@ module.exports = function(grunt) {
   		}
   	},
 
-    watch: {
-    scripts: {
-        files: ['sass/*.sass'],
-        tasks: ['sass'],
-        options: {
-            spawn: false,
-        },
-
 	browserSync: {
     	bsFiles: {
         src : 'assets/css/*.css'
@@ -41,7 +33,15 @@ module.exports = function(grunt) {
             	baseDir: "./"
         	}
     	}
-}
+	},
+	
+	watch: {
+    	scripts: {
+        	files: ['sass/*.sass'],
+        	tasks: ['sass'],
+        	options: {
+            	spawn: false,
+        }
     } 
 }
 
