@@ -1,5 +1,9 @@
 node_modules
 css/style.css
 css/style.css.map
+images/build
+!images/build/.gitkeep
+css/*
+!css/.gitkeep
 
 
